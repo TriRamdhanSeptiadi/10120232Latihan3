@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BiodataActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorMainBackground"
+        android:clipToPadding="false"
+        android:padding="26dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextNunitoBold24Black87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:text="Nama Panggilan Kamu" />
+
+            <EditText
+                android:id="@+id/edit_nama"
+                style="@style/EdtWhiteFour15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contoh : Budi"
+                android:inputType="textCapWords"
+                android:maxLength="8"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp" />
+
+            <TextView
+                style="@style/TextNunitoBold24Black87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="34dp"
+                android:text="Umur Kamu" />
+
+            <EditText
+                android:id="@+id/edit_umur"
+                style="@style/EdtWhiteFour15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contoh : 12"
+                android:inputType="number"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_selanjutnya"
+            style="@style/ButtonYellowRounded18RubikMedium14Black"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingStart="50dp"
+            android:paddingEnd="50dp"
+            android:text="Selanjutnya"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

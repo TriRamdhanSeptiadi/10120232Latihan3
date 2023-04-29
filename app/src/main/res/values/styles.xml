@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextRubikMedium24Black87" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="ButtonYellowRounded18RubikMedium14Black" parent="Widget.AppCompat.Button">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:background">@drawable/btn_gradient_yellow</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TextNunitoBold24Black87" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="TextRubikRegular15Black87" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="EditWhiteBorderYellowRubikRegular14Gunmetal" parent="Widget.AppCompat.EditText">
+
+        <item name="android:background">@drawable/bg_border_white</item>
+        <item name="android:textColorHint">@color/colorCoolGrey</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="TextRubikRegular12Black87" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="ButtonBlueRounded18RubikMedium14White" parent="Widget.AppCompat.Button">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:background">@drawable/btn_gradient_blue</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="EditRubikRegular" parent="Widget.AppCompat.EditText">
+        <item name="font">@font/rubik_regular</item>
+    </style>
+
+    <style name="EdtWhiteFour15" parent="EditRubikRegular">
+        <item name="font">@font/nunito_bold</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:textColorHint">@color/colorWhiteFour</item>
+        <item name="android:textColor">@color/colorGunmetal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="NunitoBold" parent="TextAppearance.AppCompat">
+        <item name="font">@font/nunito_bold</item>
+    </style>
+
+    <style name="TextGunmetalNunitoBold24" parent="NunitoBold">
+        <item name="android:textColor">@color/colorGunmetal</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

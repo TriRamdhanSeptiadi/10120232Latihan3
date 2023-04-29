@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBackground"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            style="@style/TextNunitoBold24Black87"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginRight="26dp"
+            android:text="Kode Keluarga" />
+
+        <TextView
+            style="@style/TextRubikRegular15Black87"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="26dp"
+            android:text="Ketikkan Kode Keluarga yang Ayah Bunda miliki disini" />
+
+        <EditText
+            android:id="@+id/edit_input_code"
+            style="@style/EditWhiteBorderYellowRubikRegular14Gunmetal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginRight="26dp"
+            android:gravity="center"
+            android:hint="Tuliskan Kode Keluarga disini"
+            android:inputType="textCapCharacters"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/txtCheckCodeAgree"
+            style="@style/TextRubikRegular12Black87"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="26dp"
+            android:gravity="center"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="Dengan menekan tombol di bawah ini berarti Anda menyetujui Ketentuan Pengguna dan Kebijakan Data kami" />
+
+        <Button
+            android:id="@+id/btn_masuk"
+            style="@style/ButtonYellowRounded18RubikMedium14Black"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginBottom="24dp"
+            android:text="Masuk"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_border_white"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            style="@style/TextRubikRegular15Black87"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Belum punya kode keluarga?" />
+
+        <Button
+            android:id="@+id/btn_buy"
+            style="@style/ButtonBlueRounded18RubikMedium14White"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginBottom="34dp"
+            android:text="Beli Kode Keluarga Disini"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
